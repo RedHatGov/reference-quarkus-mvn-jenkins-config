@@ -4,7 +4,7 @@
 # ANY MODIFICATIONS TO THIS FILE WILL BE 
 # OVERWRITTEN BY THE CI/CD PIPELINE 
 #
-# Generation Timestamp: 2020-09-28 20:35:41.456339
+# Generation Timestamp: 2020-09-29 16:12:05.313075
 ############################################
 #
 # Default values
@@ -15,7 +15,7 @@
 
 replicaCount: 1
 
-deploymentNamespace: tssc-team-reference-quarkus-mvn-jenkins-fruit-feature-better-sh-error-handling-dev
+deploymentNamespace: quarkus-mvn-jenkins-fruit-feature-better-sh-error-handling-dev
 
 service: reference-quarkus-mvn-jenkins-fruit
 image:
@@ -37,7 +37,7 @@ route:
   annotations: {
   }
   path: /
-  hostname: fruit.tssc-team-reference-quarkus-mvn-jenkins-fruit-feature-better-sh-error-handling-dev.dev.apps.tssc.rht-set.com
+  hostname: fruit.quarkus-mvn-jenkins-fruit-feature-better-sh-error-handling-dev.dev.apps.tssc.rht-set.com
 
   tls: []
   #  - secretName: chart-example-tls
