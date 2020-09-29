@@ -4,7 +4,7 @@
 # ANY MODIFICATIONS TO THIS FILE WILL BE 
 # OVERWRITTEN BY THE CI/CD PIPELINE 
 #
-# Generation Timestamp: 2020-09-29 14:57:26.093738
+# Generation Timestamp: 2020-09-29 15:12:34.562462
 ############################################
 #
 # Default values
@@ -15,12 +15,12 @@
 
 replicaCount: 1
 
-deploymentNamespace: tssc-team-reference-quarkus-mvn-jenkins-fruit-feature-napsspo-1033-pip-during-build-dev
+deploymentNamespace: tssc-team-reference-quarkus-mvn-jenkins-fruit-feature-napsspo-1033-dev
 
 service: reference-quarkus-mvn-jenkins-fruit
 image:
   repository: quay-quay-enterprise.apps.tssc.rht-set.com/tssc-team/reference-quarkus-mvn-jenkins-fruit
-  tag: 1.0.2-feature_napsspo-1033-pip-during-build
+  tag: 1.0.2-feature_napsspo-1033
   pullPolicy: Always
 
 service:
@@ -37,7 +37,7 @@ route:
   annotations: {
   }
   path: /
-  hostname: fruit.tssc-team-reference-quarkus-mvn-jenkins-fruit-feature-napsspo-1033-pip-during-build-dev.dev.apps.tssc.rht-set.com
+  hostname: fruit.tssc-team-reference-quarkus-mvn-jenkins-fruit-feature-napsspo-1033-dev.dev.apps.tssc.rht-set.com
 
   tls: []
   #  - secretName: chart-example-tls
