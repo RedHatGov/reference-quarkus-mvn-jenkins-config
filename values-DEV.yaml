@@ -4,7 +4,7 @@
 # ANY MODIFICATIONS TO THIS FILE WILL BE 
 # OVERWRITTEN BY THE CI/CD PIPELINE 
 #
-# Generation Timestamp: 2020-09-14 12:05:06.047707
+# Generation Timestamp: 2020-09-30 12:30:28.571242
 ############################################
 #
 # Default values
@@ -15,12 +15,12 @@
 
 replicaCount: 1
 
-deploymentNamespace: tssc-team-ref-app-quarkus-backend-master-dev
+deploymentNamespace: sc-team-reference-quarkus-mvn-jenkins-fruit-feature-failsq-dev
 
-service: ref-app-quarkus-backend
+service: reference-quarkus-mvn-jenkins-fruit
 image:
-  repository: quay-quay-enterprise.apps.tssc.rht-set.com/tssc-team/ref-app-quarkus-backend
-  tag: 1.0.2
+  repository: quay-quay-enterprise.apps.tssc.rht-set.com/tssc-team/reference-quarkus-mvn-jenkins-fruit
+  tag: 1.0.2-feature_failsq
   pullPolicy: Always
 
 service:
@@ -37,7 +37,7 @@ route:
   annotations: {
   }
   path: /
-  hostname: backend.tssc-team-ref-app-quarkus-backend-master-dev.dev.apps.tssc.rht-set.com
+  hostname: fruit.sc-team-reference-quarkus-mvn-jenkins-fruit-feature-failsq-dev.dev.apps.tssc.rht-set.com
 
   tls: []
   #  - secretName: chart-example-tls
