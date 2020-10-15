@@ -4,7 +4,7 @@
 # ANY MODIFICATIONS TO THIS FILE WILL BE
 # OVERWRITTEN BY THE CI/CD PIPELINE
 #
-# Generation Timestamp: 2020-10-15 18:22:13.121830
+# Generation Timestamp: 2020-10-15 18:34:33.251054
 ############################################
 #
 # Default values
@@ -19,7 +19,7 @@ deploymentNamespace: eam-reference-quarkus-mvn-jenkins-fruit-feature-nasspo-347-
 
 service: reference-quarkus-mvn-jenkins-fruit
 image:
-  repository: quay-quay-enterprise.apps.tssc.rht-set.com/tssc-team/reference-quarkus-mvn-jenkins-fruit/tssc-team/reference-quarkus-mvn-jenkins-fruit
+  repository: quay-quay-enterprise.apps.tssc.rht-set.com/tssc-team/reference-quarkus-mvn-jenkins-fruit
   tag: 1.0.2-feature_nasspo-347
   pullPolicy: Always
 
